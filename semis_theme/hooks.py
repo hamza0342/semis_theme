@@ -10,6 +10,42 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+app_include_css = ["/assets/semis_theme/css/xpert_theme.css",
+                    "https://unpkg.com/leaflet@1.8.0/dist/leaflet.css",
+                    "/assets/semis_theme/css/MarkerCluster.css",
+                    "/assets/semis_theme/css/MarkerCluster.Default.css",
+                    "/assets/semis_theme/css/xperterp.css",
+                    "/assets/semis_theme/css/morris.css",
+                    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"] 
+                    
+                    
+app_include_js = ["https://unpkg.com/leaflet@1.8.0/dist/leaflet.js",
+                   "https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js",
+                   "https://code.highcharts.com/maps/highmaps.js",
+                   "https://code.highcharts.com/stock/modules/data.js",
+                   "https://code.highcharts.com/modules/marker-clusters.js",
+                   "https://code.highcharts.com/modules/coloraxis.js",
+                   "https://code.highcharts.com/modules/exporting.js",
+                   "https://code.highcharts.com/modules/offline-exporting.js",
+                   "https://code.highcharts.com/modules/export-data.js",
+                   "/assets/semis_theme/js/leaflet.markercluster-src.js",
+                   "/assets/semis_theme/js/webdata/webdatarocks.js",
+                   "/assets/semis_theme/js/jquery.peity.js",
+                   "/assets/semis_theme/js/jquery.table2excel.js",
+                   "/assets/semis_theme/js/jquery.mask.js",
+                   "/assets/semis_theme/js/raphael-min.js",
+                   "/assets/semis_theme/js/morris.min.js",
+                   "/assets/semis_theme/js/app.js" 
+                #    "/assets/semis_theme/js/libs.min.js",
+                #    "/assets/semis_theme/js/desk.min.js",
+                #    "/assets/semis_theme/js/list.min.js",
+                #    "/assets/semis_theme/js/form.min.js",
+                #    "/assets/semis_theme/js/control.min.js",
+                #    "/assets/semis_theme/js/report.min.js",
+                   ] 
+web_include_css = ["/assets/semis_theme/css/semis_theme.css"] 
+web_include_js = ["/assets/semis_theme/js/loginapp.js"] 
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/semis_theme/css/semis_theme.css"
 # app_include_js = "/assets/semis_theme/js/semis_theme.js"

@@ -1,0 +1,122 @@
+body {
+    background-image: url(../img/rsu-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 400;
+	font-size: 16px;
+	color: #4C5A67;
+}
+.web-footer{
+	display:none;
+}
+#login_email::-webkit-input-placeholder::before { 
+  content:"administrator@semis.rsu-sindh.gov.pk";
+}
+.for-login .page-card{
+    background-image: url(../img/loginbg.png) !important;
+    position: relative;
+    height: 595px;
+    width: 355px;
+    box-shadow: 0px 0px 24px #5c5696;
+	background-repeat: no-repeat;
+}
+.for-forgot .page-card {
+    background-image: url(../img/loginbg.png) !important;
+    position: relative;
+    height: 493px;
+    width: 355px;
+    box-shadow: 0px 0px 24px #5c5696;
+    background-repeat: no-repeat;
+}
+.for-signup  .page-card {
+    background-image: url(../img/loginbg.png) !important;
+    position: relative;
+    height: 493px;
+    width: 355px;
+    box-shadow: 0px 0px 24px #5c5696;
+    background-repeat: no-repeat;
+}
+.navbar{
+	display:none;
+}
+.page-card-head img.app-logo {
+    /*max-width: 75% !important;*/
+	max-height: 72px !important;
+}
+.page-card-head h4{
+	display:none;
+}
+.page-card-actions .btn-login, .page-card-actions .btn-forgot, .page-card-actions .btn-signup {
+    background: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 16px 20px;
+    border-radius: 26px;
+    border: 1px solid #bddec3;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #28a745;
+    box-shadow: 0px 2px 2px #28a745;
+    cursor: pointer;
+    transition: .2s;
+}
+.page-card-actions .btn-login:after {
+    font-size: 24px;
+    margin-left: auto;
+    color: #28a745;
+}
+
+.for-email-login .page-card .page-card-body .forgot-password-message>*, .for-forgot .page-card .page-card-body .forgot-password-message>*, .for-login .page-card .page-card-body .forgot-password-message>*, .for-signup .page-card .page-card-body .forgot-password-message>* {
+    color: #2490ef !important;
+    font-size: 14px !important;
+}
+.for-forgot .page-card, .for-signup .page-card {
+    padding-top: 100px !important; 
+}
+.for-login .page-card, .for-email-login .page-card {
+    padding-top: 149px !important; 
+}
+
+.for-login .page-card .page-card-body{
+	    text-align: -webkit-center;
+}
+.for-login .page-card .page-card-body .email-field input,
+.for-login .page-card .page-card-body .password-field input{
+	font-weight: 700;
+    height: 42px;
+    max-width: 250px;
+    border-bottom: 2px solid green !important;
+    border-radius: 0;
+	margin: 35px 0px;
+	font-size: 13px !important;
+} 
+.for-login .page-card .page-card-body .field-icon{
+	left: 42px !important;
+    top: 10px !important;
+}
+.for-login .page-card .page-card-body .password-field .toggle-password{
+	right: 40px !important;
+    top: 10px !important;
+}
+.for-login .page-card .forgot-password-message{
+	    text-align: end;
+    margin: 15px 0;
+    font-weight: 500;
+}
+.page-card-actions .btn-login{
+	    margin: 30px auto;
+		    width: 85%;
+}
+.page-card-actions .btn-login:active{
+	    color: #28a745 !important;
+    background-color: #fff !important;
+    border-color: #28a745 !important;
+}
+.page-card-actions .btn-login:active:focus
+{
+	    box-shadow: 0px 2px 2px #28a745 !important;
+}

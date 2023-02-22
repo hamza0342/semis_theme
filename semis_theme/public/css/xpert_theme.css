@@ -1,0 +1,300 @@
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--scroll-bg);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-color);
+    border-radius: 20px;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-color) var(--scroll-bg);
+}
+
+.awesomplete .input-with-feedback {
+    border: 1px solid var(--border-color);
+}
+
+.form-control {
+    border: 1px solid var(--border-color);
+}
+
+.search-bar .awesomplete input {
+    background-color: var(--bg-color)
+}
+
+.modal-backdrop {
+    background-color: #2c436b !important;
+}
+
+.widget .widget-head .widget-title {
+    font-size: var(--text-base);
+}
+
+.comment-box .comment-input-header,
+.form-dashboard-section .section-head,
+.form-section .section-head,
+.head-title {
+    font-size: var(--text-base);
+    font-weight: 600;
+}
+
+.comment-box .comment-input-container .ql-editor {
+    border: 1px solid var(--border-color);
+}
+
+.duration-picker .duration-input {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+}
+
+.control-label {
+    font-weight: 500;
+}
+
+[data-theme="dark"] {
+    --bg-color: var(--gray-900);
+    --disabled-control-bg: var(--gray-900);
+    --border-color: #1c2126;
+    --margin-lg: 15px;
+    --text-bold: 600;
+    --scroll-bg: #161a1f;
+    --scroll-color: #1c2126;
+}
+
+[data-theme="light"] {
+    --bg-color: #f2f5fa;
+    --text-bold: 600;
+    --control-bg: #fff;
+    --control-bg-on-gray: #d4dcea;
+    --disabled-control-bg: #f2f5fa;
+    --heading-color: #333;
+    --border-color: #e3e8f1;
+    --avatar-frame-bg: #dde2ea;
+    --margin-lg: 15px;
+    --sidebar-select-color: #d4dcea;
+    --awesomplete-hover-bg: #d4dcea;
+    --scroll-bg: #eef1f5;
+    --scroll-color: #d9dfe6;
+}
+
+
+body {
+    background-image: url(../img/rsu-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page-container {
+    background-image: url(../img/rsu-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container.page-body .layout-main .layout-side-section {
+    background-color: #4a9957bf !important;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    overflow: auto !important;
+    height: calc(100vh - 76px - 71px - 5px) !important;
+}
+
+.container.page-body .layout-main .layout-side-section .standard-sidebar-item.selected {
+    background-color: #34633c !important;
+    color: white;
+}
+
+.container.page-body .layout-main .layout-side-section .standard-sidebar-item .item-anchor {
+    color: #fff;
+}
+
+.container.page-body .layout-main .layout-side-section .standard-sidebar-item .item-anchor .sidebar-item-icon svg use {
+    --icon-stroke: #fff;
+    stroke: #fff;
+    fill: #fff;
+}
+
+.container.page-body .layout-main .layout-side-section .standard-sidebar-item:hover {
+    background-color: #34633c !important;
+}
+
+.page-head,
+.page-head.drop-shadow {
+    background: #4a9957 !important;
+    border-bottom: 4px solid #efd446;
+    margin-bottom: 15px !important;
+    z-index: 11;
+    top: 85px;
+   
+}
+
+.page-head-content .ellipsis.title-text {
+    color: white;
+}
+
+.page-head-content svg use {
+    --icon-stroke: #fff;
+    stroke: #fff;
+    fill: #fff;
+}
+
+.page-head-content button.btn-default svg use {
+    --icon-stroke: var(--gray-900);
+    fill: var(--icon-fill);
+    stroke: var(--icon-stroke);
+}
+
+/* Global CSS */
+
+/* Colours */
+:root {
+    --blue: #bddec3 !important;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #687178;
+    --gray-dark: #333c44;
+    --primary: #28a745 !important;
+    --secondary: #bddec3 !important;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #e24c4c;
+    --light: #f9fafa;
+    --dark: #333c44;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-2xl: 1440px;
+    --bg-blue: #bddec3;
+    --bg-color: var(--gray-50);
+    --fg-color: #fff;
+    --navbar-bg: #fff;
+    --charts-label-color: #313b44;
+    --charts-axis-line-color: #f4f5f6;
+    --charts-tooltip-title: var(--charts-label-color);
+    --charts-tooltip-label: var(--charts-label-color);
+    --charts-tooltip-value: #192734;
+    --charts-tooltip-bg: #ffffff;
+    --charts-stroke-width: 2px;
+    --charts-dataset-circle-stroke: #ffffff;
+    --charts-dataset-circle-stroke-width: var(--charts-stroke-width);
+    --charts-legend-label: var(--charts-label-color);
+    --charts-legend-value: var(--charts-label-color);
+    --icon-stroke: var(--gray-900);
+    --icon-fill: transparent;
+
+}
+
+.layout-side-section .sidebar-label {
+    color: var(--white);
+}
+
+.page-head,
+.page-head .page-head-content {}
+
+.page-head,
+.page-head .page-head-content {}
+
+.app-logo {
+    content: url("/files/rsu_logo.png");
+    width: 68px !important;
+    max-height: 68px !important;
+}
+
+/* Top Header */
+.navbar {
+    background: var(--navbar-bg);
+    box-shadow: var(--shadow-sm);
+    height: 85px;
+    perspective: 3200px;
+}
+
+.navbar-expand {
+    background-color: var(--navbar-bg);
+}
+.headermenu
+{
+	    margin-top: 0px;
+    background-color: #4a9957;
+    color: white; 
+    padding: 0px;
+    perspective: unset;
+    width: 100%;
+    z-index: 99;
+    /*top: 85px;
+	position: sticky;*/
+}	
+.headermenu .container-fluid
+{
+	padding:0px;
+}
+.headermenu.navbar .nav-item, 
+.headermenu.navbar .vertical-bar
+{
+	margin-left: 2px;
+}
+.headermenu .navbar-collapse .navbar-nav .nav-item .nav-link {
+   font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    text-decoration: none;
+
+}
+.headermenu .navbar-collapse .navbar-nav .nav-item:hover,
+.headermenu .navbar-collapse .navbar-nav .nav-item.active
+{
+	    background-color: #34633c !important;
+    border-radius: 4px 4px 0px 0px;
+}
+.headermenu .navbar-collapse .navbar-nav .nav-item .nav-link .icon-md
+{
+	width: 16px;
+    height: 16px;
+    stroke: #fff;
+    fill: #fff;
+}
+.headermenu .dropdown-toggle {
+    white-space: unset;
+}
+.headermenu .dropdown-menu
+{
+	background-color: #34633c;
+	top: 96%;
+	color: #fff;
+	border-radius: 0rem 0.37rem 0.37rem 0.37rem;
+	border-color:#34633c;
+}
+.headermenu .dropdown-item
+{
+	    color: #fff;
+}
+.sidebar .desksidebar>li:hover .dropdown-menu {
+    z-index: 10;
+    display: block;
+}
